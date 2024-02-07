@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.gif'); /* Replace with your background gif file */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+#questionContainer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Optional: Adds a white semi-transparent background to the content area */
+    border-radius: 15px;
+}
+
+#animalImg {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #d94a4a;
+    color: white;
+    transition: transform 0.3s ease; /* Smooth transition for button resizing */
+}
+
+button:hover {
+    background-color: #c23b3b;
+}
+
